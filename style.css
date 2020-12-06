@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *   {
     margin: 0;
-    paddin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -320,7 +320,7 @@ img {
 }@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *   {
     margin: 0;
-    paddin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -604,7 +604,7 @@ img {
     .menu   {
         position: fixed;
         top: 75px;
-        left: 100;
+        left: -100%;
         display: block;
         padding: 100px 50px;
         text-align: center;
@@ -637,10 +637,10 @@ img {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25x;
+        cursor: pointer;
     }
     header.sticky .toggle   {
         filter: invert(1);
-
     }
     section     {
         padding: 100px 50px;
